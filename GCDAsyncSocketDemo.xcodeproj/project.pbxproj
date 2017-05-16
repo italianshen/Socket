@@ -21,7 +21,6 @@
 		30947D5C1ECB369800FC13E3 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 30947D561ECB369800FC13E3 /* AsyncSocket.m */; };
 		30947D5D1ECB369800FC13E3 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 30947D581ECB369800FC13E3 /* AsyncUdpSocket.m */; };
 		30947D611ECB36F900FC13E3 /* DDUSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30947D601ECB36F900FC13E3 /* DDUSocketManager.m */; };
-		30947D631ECB52EE00FC13E3 /* chat.gif in Resources */ = {isa = PBXBuildFile; fileRef = 30947D621ECB52EE00FC13E3 /* chat.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +68,6 @@
 		30947D581ECB369800FC13E3 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
 		30947D5F1ECB36F900FC13E3 /* DDUSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDUSocketManager.h; sourceTree = "<group>"; };
 		30947D601ECB36F900FC13E3 /* DDUSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDUSocketManager.m; sourceTree = "<group>"; };
-		30947D621ECB52EE00FC13E3 /* chat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = chat.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +136,6 @@
 		30947D191ECB367100FC13E3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				30947D621ECB52EE00FC13E3 /* chat.gif */,
 				30947D1A1ECB367100FC13E3 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -318,7 +315,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30947D631ECB52EE00FC13E3 /* chat.gif in Resources */,
 				30947D291ECB367100FC13E3 /* LaunchScreen.storyboard in Resources */,
 				30947D261ECB367100FC13E3 /* Assets.xcassets in Resources */,
 				30947D241ECB367100FC13E3 /* Main.storyboard in Resources */,
@@ -588,6 +584,7 @@
 				30947D451ECB367100FC13E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30947D461ECB367100FC13E3 /* Build configuration list for PBXNativeTarget "GCDAsyncSocketDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -596,6 +593,7 @@
 				30947D481ECB367100FC13E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30947D491ECB367100FC13E3 /* Build configuration list for PBXNativeTarget "GCDAsyncSocketDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -604,6 +602,7 @@
 				30947D4B1ECB367100FC13E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
